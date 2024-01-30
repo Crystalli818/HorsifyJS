@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: da20ec82f7242114fa2e4b99b605687a
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - currentHorse: {fileID: 11400000, guid: 89526da69b6308e4a8a0d60f9e086939, type: 2}
+  - HorseName: {instanceID: 0}
+  - HorseAge: {instanceID: 0}
+  - HorseGender: {instanceID: 0}
+  - HorseLife: {instanceID: 0}
+  - HorseMedication: {instanceID: 0}
+  - HorseFeatures: {instanceID: 0}
+  - HorseImage: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

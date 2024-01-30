@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7722288355363361100
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7722288355363361098}
+  - component: {fileID: 7722288355363361101}
+  m_Layer: 0
+  m_Name: Horse
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7722288355363361098
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7722288355363361100}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!114 &7722288355363361101
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7722288355363361100}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86b9b6b70dd664887ade0bbda73f7c74, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  horseObject: {fileID: 0}
+  horseList:
+  - {fileID: 5574665549214826260, guid: 85808af8ec99ace479d4eb0721421e5d, type: 3}
+  - {fileID: 6659166314503463528, guid: 1fdc115e30028f74dad650c9549a212f, type: 3}
+  - {fileID: 5129567063681434312, guid: 7766de4fc63f58a4ca1af5f9b491e04a, type: 3}
+  - {fileID: 6509891426995091535, guid: 551acad3f2d5139498d86385575681a4, type: 3}
+  - {fileID: 5976553598491577101, guid: 52521cd8c0bfe644dbac2d2b7a70bff3, type: 3}
+  - {fileID: 2714026382720515362, guid: eeb2742c0ac7c6046bce1a25434c2d10, type: 3}
+  currentPrefabIndex: 0
