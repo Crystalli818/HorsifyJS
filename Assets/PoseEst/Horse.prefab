@@ -44,12 +44,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86b9b6b70dd664887ade0bbda73f7c74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  headPosition: {fileID: 0}
+  animatorController: {fileID: 0}
   horseObject: {fileID: 0}
   horseList:
-  - {fileID: 5574665549214826260, guid: 85808af8ec99ace479d4eb0721421e5d, type: 3}
-  - {fileID: 6659166314503463528, guid: 1fdc115e30028f74dad650c9549a212f, type: 3}
-  - {fileID: 5129567063681434312, guid: 7766de4fc63f58a4ca1af5f9b491e04a, type: 3}
-  - {fileID: 6509891426995091535, guid: 551acad3f2d5139498d86385575681a4, type: 3}
-  - {fileID: 5976553598491577101, guid: 52521cd8c0bfe644dbac2d2b7a70bff3, type: 3}
-  - {fileID: 2714026382720515362, guid: eeb2742c0ac7c6046bce1a25434c2d10, type: 3}
+  - {fileID: 5574665549214826260, guid: e4aa3968972bb4041934d9bd8883d333, type: 3}
+  - {fileID: 6659166314503463528, guid: 750356ebec65146c5893fae4f3e590d4, type: 3}
+  - {fileID: 5129567063681434312, guid: 4de0e6cae34f442b9b97451fc5b70a91, type: 3}
+  - {fileID: 6509891426995091535, guid: b8563c4ebb77f43fd99f91fef5736c12, type: 3}
+  - {fileID: 5976553598491577101, guid: cfd6beebd5b46420caa2f93a1b4f13ff, type: 3}
+  - {fileID: 2714026382720515362, guid: 747b84529f9194041ba23f1358034b03, type: 3}
+  hatList:
+  - 
+  - VikingHelmet
+  - Sombrero
+  - PoliceCap
+  - PajamaHat
+  - MinerHat
+  - MagicianHat
+  - Crown
+  - CowboyHat
+  horseName: 
+  age: 
+  gender: 
+  medication: 
+  features: 
   currentPrefabIndex: 0
+  currentHatPrefabIndex: 1
+  selectedJoint: {fileID: 0}
+  rotationSpeed: 5
+  lastMousePosition: {x: 0, y: 0, z: 0}

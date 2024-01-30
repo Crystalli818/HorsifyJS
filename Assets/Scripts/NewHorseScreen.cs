@@ -38,7 +38,7 @@ public class NewHorseScreen : MonoBehaviour
     public void ReturnToScreen(bool willsave)
     {
         if(willsave){
-    // save our new horse 
+            // save our new horse 
             SaveData.SavedNewHorseToJson(ourNewHorse); 
         }
         SceneManager.LoadScene(1);
