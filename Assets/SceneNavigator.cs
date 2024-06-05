@@ -27,4 +27,11 @@ public class SceneNavigator : MonoBehaviour
         SceneManager.LoadScene("DressUp");
     }
 
+
+    public void GoToVetOfficeScene()
+    {
+        SceneManager.LoadScene("VetOffice");
+    }
+
+
 }

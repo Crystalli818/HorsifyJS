@@ -54,6 +54,7 @@ public class StableManager : MonoBehaviour
 
     public void Load(string horsename)
     {
+
         string jsonData = PlayerPrefs.GetString(horsename + ".horse");
         print(jsonData);
         nameText.text = horsename;
@@ -61,14 +62,25 @@ public class StableManager : MonoBehaviour
 
         if (!string.IsNullOrEmpty(jsonData))
         {
+            print("Delete Horse");
             HorseSceneController horseController = horse.GetComponent<HorseSceneController>();
             horseController.DeleteHorse();
 
+            print("Load from json Commented");
             //HorseSceneController horseSceneController = JsonUtility.FromJson<HorseSceneController>(jsonData);
             JsonUtility.FromJsonOverwrite(jsonData, horseController);
+            print("Reset Commented");
             horseController.Reset();
+            print("set animationController commented");
             horseController.horseObject.GetComponent<Animator>().runtimeAnimatorController = animationController;
         }
+    }
+
+
+    public void NewHorse()
+    {
+        HorseSceneController horseController = horse.GetComponent<HorseSceneController>();
+        horseController.Reset();
     }
 
 
@@ -83,10 +95,11 @@ public class StableManager : MonoBehaviour
 
         string horse_names_string = PlayerPrefs.GetString("horse_names");
         if (horse_names_string.Length > 0) {
+            //NewHorse();
             CurrentHorseIndex = 0;
             HorseNames = new List<string>(horse_names_string.Split(','));
+
             Load(HorseNames[0]);
-            print(HorseNames[0]);
 
             stableUI.SetActive(true);
             emptyStableUI.SetActive(false);

@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/NewHorse.unity
     guid: b6a5fcac09f4c4056a0f9aaa05842b65
+  - enabled: 1
+    path: Assets/Scenes/VetOffice.unity
+    guid: a98895e4dc190466990525abff84f946
   m_configObjects: {}

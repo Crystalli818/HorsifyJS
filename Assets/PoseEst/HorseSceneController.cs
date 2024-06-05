@@ -198,6 +198,8 @@ public class HorseSceneController : MonoBehaviour
         //newPrefab.transform.SetParent(transform);
         //newPrefab.transform.Translate(Vector3.down);
 
+        print(horseList.Length);
+        print(horseList[prefabIndex]);
 
         horseObject = Instantiate(horseList[prefabIndex], transform.position, Quaternion.identity);
         horseObject.transform.SetParent(transform);
